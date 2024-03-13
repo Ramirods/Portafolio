@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pagina de Prueba</title>
+</head>
+
+<body>
+  <h1>Formulario</h1>
+  <h3>Complete los siguientes campos con sus datos personales</h3>
+  <div>
+    <input placeholder="Ingrese nombre"></input>
+  </div>
+  <div>
+    <input placeholder="Ingrese apellido"></input>
+  </div>
+  <div>
+    <select>
+      <option>Seleccione departamento</option>
+      <option>Artigas</option>
+      <option>Rivera</option>
+      <option>Maldonado</option>
+      <option>Montevideo</option>
+      <option>Cerro Largo</option>
+      <option>Treinta y Tres</option>
+      <option>Paysandu</option>
+      <option>Tacuarembo</option>
+      <option>Salto</option>
+      <option>Flores</option>
+      <option>Florida</option>
+      <option>Rocha</option>
+      <option>Colonia</option>
+      <option>Soriano</option>
+      <option>San Jose</option>
+      <option>Durazno</option>
+      <option>Canelones</option>
+      <option>Rio Negro</option>
+
+    </select>
+  </div>
+  <div>
+    <h3>Seleccione la/s rama/s de informatica a las que se dedica:</h3>
+    <label for="backend">Backend</label>
+    <input type="checkbox" name="backend"></input>
+    <p></p>
+    <label for="frontend">Frontend</label>
+    <input type="checkbox" name="frontend"></input>
+    <p></p>
+    <label for="redes">Redes</label>
+    <input type="checkbox" name="redes"></input>
+    <p></p>
+
+  </div>
+  <div>
+    <h3>Con cuantos años de experiencia laboral cuenta</h3>
+    <label>Menos de uno</label>
+    <input type="radio" name="radio">
+    <p></p>
+    <label>Uno</label>
+    <input type="radio" name="radio">
+    <p></p>
+    <label>Dos o Mas</label>
+    <input type="radio" name="radio">
+    <p></p>
+
+  </div>
+  <div>
+    <label for="enviar">Si ha completado el formulario pulse aqui:</label>
+    <button onclick='click()'>Enviar</button>
+  </div>
+
+  <script>
+    function miAlerta(evento) {
+
+      alert("Se abrira una ventana emergente");
+    }
+  </script>
+  <img src="https://picsum.photos/200/300" alt="Lorem pixum">
+  </div>
+  <div>
+    <a href="https://picsum.photos/" target="_blank" onclick="miAlerta()">Link a la imagen</a>
+  </div>
+</body>
+
+</html>
