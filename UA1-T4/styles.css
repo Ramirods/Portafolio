@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(154, 153, 153);
+}
+select{
+    color: rgb(0, 179, 255);
+    display: flex;
+    border-style: ridge;
+    display: flex;
+}
+input::placeholder{
+    color: rgb(0, 179, 255);
+}
+input{
+    display: flex;
+    border-style:ridge;
+}
+h1{
+    color: blue;
+    background-color: grey;
+    display: flex;
+}
+h3{
+    color: rgb(91, 91, 222);
+    background-color: grey;
+    display: flex;
+}
+label{
+    color: rgb(0, 179, 255);
+    display: flex;
+}
+a:hover{
+    color: greenyellow;
+}
+a::before{
+    content: "♥";
+}
+button:hover{
+    color: green;
+}
+body div{
+    background-color: grey;
+}
