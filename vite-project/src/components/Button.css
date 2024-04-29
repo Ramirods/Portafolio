@@ -1,0 +1,16 @@
+
+button{
+    border-radius: 10px;
+    height: 5rem;
+    width: 10rem;
+}
+.buttonClear{
+    background-color: yellow;
+}
+.buttonAdd{
+    background-color: green;
+}
+.buttonSubstract{
+    background-color: red;
+}
+
