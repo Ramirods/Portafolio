@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="./script.js"></script>
+  <title>MyTrello</title>
+</head>
+
+
+
+<body>
+  <div class="header">
+    <div class="left">
+      <h1>MyTrello</h1>
+      <input id='searchimp' placeholder="Search 🔍︎" onfocus="this.value=''"></input>
+      <button id="newcardbutton">New card</button>
+    </div>
+    <div class="right">
+      <button class="tabButton" id="notification">&#128276</button>
+      <button class="tabButton" id="support">❓</button>
+    </div>
+  </div>
+  <div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <form id="modalForm">
+        <label for="title">Title: </label><br>
+        <input type="text" id="title" name="title"><br>
+        <label for="subTitle">Subtitle: </label><br>
+        <input type="text" id="subTitle" name="subtitle"><br><br>
+        <label for="content">Content: </label><br>
+        <input type="text" id="content" name="content"><br><br>
+        <input type="button" id="sumbit" value="Create card">
+      </form>
+    </div>
+  </div>
+  <div id="editModal" class="editModal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <form id="modalForm">
+        <label for="title">Title: </label><br>
+        <input type="text" id="editTitle" name="title"><br>
+        <label for="subTitle">Subtitle: </label><br>
+        <input type="text" id="editSubTitle" name="subtitle"><br><br>
+        <label for="content">Content: </label><br>
+        <input type="text" id="editContent" name="content"><br><br>
+        <input type="button" id="edit" value="Edit card">
+      </form>
+    </div>
+  </div>
+  <div id="container">
+    
+  </div>
+
+</body>
+
+</html>
